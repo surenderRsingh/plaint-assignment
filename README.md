@@ -3,16 +3,18 @@
  - Chrome version 86
 
  ## Initial set up
-  > Download or clone project
-  > Download all required modules
+  > Download or clone project <br/>
+  > Download all required modules <br/>
       ```
-      npm install
+      npm install    
       ```
-  > execute test cases
+      <br/>
+  > execute test cases <br/>
     ```
     npx wdio wdio.config.js
     ```
-  > Reports are saved at ** Reports/html ** folder
+    <br/>
+  > Reports are saved at ** Reports/html ** folder <br/>
 
-  > For changing the chrome version - change _ chromedriver _ value in package.json
+  > For changing the chrome version - change _ chromedriver _ value in package.json <br/>
 
