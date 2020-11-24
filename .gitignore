@@ -1,5 +1,5 @@
 # Logs
-*.reports
+reports
 
 # Dependency directory
 # Commenting this out is preferred by some people, see

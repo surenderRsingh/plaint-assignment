@@ -16,15 +16,15 @@
     <br/>
   > 
 
-  > For changing the chrome version - change _ chromedriver _ value in package.json <br/>
+  > For changing the chrome version - change _chromedriver_ value in package.json <br/>
 
   ## configuration
-  > config file - ** wdio.conf.js ** <br/>
+  > config file - **wdio.conf.js** <br/>
   > Max timeout is set to 20 seconds <br/>
   > Max instances is set to 5. Thus all test cases will execute in parallel. For individual test case execution set maxInstances to 1 <br/>
 
   ## Reporting
-  Reports are saved at ** Reports/html ** folder <br/>
+  Reports are saved at **Reports/html** folder <br/>
   Open Index.html file and select individual feature for detailed infomation
   Click on scenario header to get to step level details 
 
