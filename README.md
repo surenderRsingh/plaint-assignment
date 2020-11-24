@@ -25,7 +25,7 @@
 
   ## Reporting
   Reports are saved at **Reports/html** folder <br/>
-  Open Index.html file and select individual feature for detailed infomation
+  Open Index.html file and select individual feature for detailed infomation. <br/>
   Click on scenario header to get to step level details 
 
 
