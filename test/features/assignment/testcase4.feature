@@ -9,3 +9,11 @@
 Feature: User is able to select and add items to carts.
     Scenario: Validate selected items are added to cart.
         Given User is on shop page
+        When "Funny Cow" item is selected
+        And "Funny Cow" item is selected
+        And "Fluffy Bunny" item is selected
+        And cart menu button is clicked
+        Then cart should have following items
+            | Item         | Quantity |
+            | Funny Cow    | 2        |
+            | Fluffy Bunny | 1        |

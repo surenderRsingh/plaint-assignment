@@ -1,6 +1,7 @@
 import BasePage from "./basePage";
 import {clickElement} from '../lib/elementOperations/actionsOps';
 import ContactPage from "./contactPage";
+import ShopPage from "./shopPage";
 
 export default class HeaderPg extends BasePage {
     
@@ -19,5 +20,6 @@ export default class HeaderPg extends BasePage {
     
     async openShopPage(){
         await clickElement(this.shopPgLink,"Shop link");
+        return new ShopPage();
     }
 }

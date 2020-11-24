@@ -27,9 +27,9 @@ exports.config = {
   specs: ["./test/features/**/*.feature"],
   // Patterns to exclude.
   exclude: [
-    './test/features/assignment/testcase1.feature',
-    './test/features/assignment/testcase2.feature',
-    './test/features/assignment/testcase3.feature'
+    // './test/features/assignment/testcase1.feature',
+    // './test/features/assignment/testcase2.feature',
+    // './test/features/assignment/testcase3.feature'
 
   ],
   //
